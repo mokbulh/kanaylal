@@ -161,6 +161,9 @@
       .hero-tex-box span{
         font-size:100%;
       }
+    .menu-item{
+        top:40%;
+      }
       .grid-about-container {
         grid-template-columns: 2fr 2fr;
         grid-gap: 10px;
