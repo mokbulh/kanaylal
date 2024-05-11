@@ -1,0 +1,179 @@
+@media screen and (max-width:1200px){
+    .row{
+        width:100%;
+    }
+    #hero{
+        background-position-x: 57%;
+      }
+    .menu-item{
+        top:30%;
+      }
+    #experience{
+        background-position-x: 90%;
+    }
+    .social-aria {
+      top: 534px;
+    }
+}
+@media screen and (max-width:1024px){
+    .grid-process-container,
+    .grid-portfolio-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-portfolio-items:nth-child(5) {
+        grid-column: 1/2;
+    }
+    .social-aria {
+      left:40px;
+    }
+}
+@media screen and (max-width:810px){
+    #hero {
+      background-position-x: 59%;
+    }
+    .hero-text-box{
+        top: 45%;
+        left: 35%;
+    }
+    .social-aria{
+        left:45px;
+    }
+}
+
+@media screen and (max-width:768px){
+    #hero{
+        height: 100vh;
+    }
+    .hero-text-box{
+        top:50%;
+        left:38%;
+    }
+    .social-aria{
+        right:45px;
+    }
+      .grid-about-items .intro{
+        font-size:150%;
+      }
+      
+      .grid-experience-container,
+      .grid-contact-container{
+        grid-template-columns: 1fr;
+      }
+      .grid-about-items .intro {
+        font-size: 130%;
+      }
+      .description{
+          font-size:120%;
+      }
+}
+
+@media screen and (max-width: 480px){
+  #hero{
+    background-position-x: 60%;
+  }
+  .logo {
+        height: 35px;
+        margin-top: 23px;
+      }
+      .nav-icon ion-icon{
+        font-size:23px;
+        margin-top: 30px;
+      }
+      .hero-text-box h1{
+        font-size:420%;
+      }
+      .hero-text-box span {
+        font-size: 120%;
+        margin-top: 0px;
+      }
+      .hero-text-box{
+        top:56%;
+        left:30%;
+    }
+    .social-aria{
+        top:70%;
+    }
+    .btn:link,
+    .btn:visited,
+    .btn {
+        font-size:170%;
+        width:142px;
+        padding: 3px 0;
+        margin-bottom: 20px;
+    }
+    #portfolio{
+      width:100%;
+    }
+      .portfolio-filter button {
+        padding: 2px 3px;
+        margin: 5px 5px;
+        font-size: 120%;
+      }
+    .grid-process-container{
+        grid-template-columns: 1fr;
+    }
+    
+    #process h2{
+        font-size:230%;
+    }
+    #process p{
+        font-size:120%;
+    }
+    #experience{
+        background-position-x: 91%;
+    }
+    
+    .grid-portfolio-container{
+        grid-template-columns: 1fr;
+    }
+    #portfolio h2{
+        font-size:300%;
+    }
+    #portfolio p{
+        font-size:140%;
+    }
+    .grid-testimonial-container{
+        grid-template-columns: 1fr;
+        padding:0 4%;
+    }
+    .grid-testimonial-items:nth-child(2){
+        grid-row:1/2;
+        text-align:center;
+    }
+    .website{
+        left:70%;
+        top:375px;
+    }
+    #contact{
+        background-position-x: 76%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .hero-tex-box {
+      top: 45%;
+      left: 34%;
+      width:40% 
+    }
+    .hero-tex-box h1{
+        font-size:350%;
+      }
+      .hero-tex-box span{
+        font-size:100%;
+      }
+      .grid-about-container {
+        grid-template-columns: 2fr 2fr;
+        grid-gap: 10px;
+        padding: 0 4%;
+      }
+      #experience{
+        background-position-x: 88%;
+    }
+    .portfolio-filter button {
+      font-size: 110%;
+    }
+    .description {
+      font-size: 100%;
+    }
+  }
+

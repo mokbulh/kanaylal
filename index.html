@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title-->
+    <title>Kanay Lal Roy</title>
+    <!--favicon-->
+    <link rel="shortcut icon" href="resources/img/kanaylallogo2.png" type="image/x-icon">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--css file-->
+    <link rel="stylesheet" href="vendors/css/uikit.min.css">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+  </head>
+  <body>
+    <!--START HEADER SECTION-->
+    <header id="hero">
+      <nav uk-sticky>
+          <div class="row">
+             <a href="#hero"> <img src="resources/img/kanaylallogo3.png" alt="Paul" class="logo"></a>
+              <a class="nav-icon" onclick="openMenu()"><ion-icon name="menu-outline"></ion-icon></a>
+          </div>
+          <div class="menu-container" id="navbar" onclick="closeMenu()">
+              <div class="close-btn" onclick="closeMenu()">
+                <ion-icon name="close-outline"></ion-icon>
+              </div>
+              <div class="menu-item">
+                <ul>
+                  <li><a onclick="closeMenu()" href="#hero">Home</a></li>
+                  <li><a onclick="closeMenu()" href="#about">About</a></li>
+                  <li><a onclick="closeMenu()" href="#process">Process</a></li>
+                  <li><a onclick="closeMenu()" href="#experience">Experience</a></li>
+                  <li><a onclick="closeMenu()" href="#portfolio">Portfolio</a></li>
+                  <li><a onclick="closeMenu()" href="#testimonial">testimonial</a></li>
+                  <li><a onclick="closeMenu()" href="#contact">Contact</a></li>
+                </ul>
+              </div>
+          </div>
+      </nav>
+      <div class="hero-text-box">
+          <h1 uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Kanay Lal</h1>
+          <br>
+          <span>Professional Freelancer. <br>
+            Web Designer & SEO Expert <br> Graphics Designer and Digital Marketer</span>
+      </div>
+      <div class="social-aria">
+        <ul>
+          <li><a href="https://www.youtube.com/@kanaylal/videos" target="_blank" ><img src="resources/img/Youtube_logo.png" alt="youtube"></a></li>
+          <li><a href="https://www.facebook.com/kanaylal.kl" target="_blank"><img src="resources/img/facebook2.png" alt="facebook"></a></li>
+          <li><a href="#"><img src="resources/img/linkedin.jpg" alt="linkedin"></a></li>
+          <li><a href="#"><img src="resources/img/twiter-thumbnail.jpg" alt="twiter"></a></li>
+        </ul>
+      </div>
+  </header>
+    <!--END HEADER SECTION-->
+    
+    <!--START ABOUT SECTION-->
+    <section id="about">
+      <div class="row">
+        <div class="grid-about-container">
+          <div class="grid-about-items">
+            <h2 class="intro">Hi, I am Kanay Lal Roy. Professional Freelancer, <br> Graphic Designer and AI Expert from Bangladesh.</h2>
+            <p class="description">
+              SEO Expert, Google ads Expert, Social Media Marketing Expert, Google Analytics, Web Development at Professional Freelancers, Web Designer & Developer at Upwork and Content Creator & Video Editor at YouTube. <br><br>
+              And I provide training in contemporary modern methods on various subjects of freelancing.
+            </p>
+            <div class="about-cta-btn">
+              <a href="#" class="btn btn-full">Hire Me!</a>
+            </div>
+          </div>
+          <div uk-scrollspy="cls: uk-animation-slide-right; repeat: true grid-about-items" >
+            <img class="kanay" src="resources/img/Kanaylal-sec2.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END ABOUT SECTION-->
+
+    <!--START PROCESS SECTION-->
+      <section id="process">
+        <div class="row">
+          <div class="section-title">
+            <h2>My Working Process</h2>
+            <p>Hi, I am Kanay Lal Roy. Professional Freelancer, <br> Graphic Designer and AI Expert from Bangladesh.</p>
+          </div>
+          <div class="grid-process-container">
+              <div class="grid-process-items">
+                <ion-icon name="desktop-outline"></ion-icon>
+                <h4>DESIGN</h4>
+              </div>  
+              <div class="grid-process-items">
+                <ion-icon name="color-wand-outline"></ion-icon>
+                <h4>DEVELOPMENT</h4>
+              </div>
+              <div class="grid-process-items">
+                <ion-icon name="options-outline"></ion-icon>
+                <h4>TESTING</h4>
+              </div>
+              <div class="grid-process-items">
+                <ion-icon name="airplane-outline"></ion-icon>
+                <h4>LAUNCH</h4>
+              </div>
+          </div>
+        </div>
+      </section>
+    <!--END PROCESS SECTION-->
+    
+    <!--START EXPERIENCE SECTION-->
+      <section id="experience">
+        <div class="row">
+          <div class="grid-experience-container">
+            <div class="grid-ecperience-items">
+              <h3>Work Experience</h3>
+              <div class="job">
+                <h4>YouTube</h4>
+                <span>February 22,  2012 -  Present</span>
+                <p>Content Creator & Video Editor at YouTube</p>
+              </div> <br><br>
+              <hr>
+              <br><br>
+              <div class="job">
+                <h4>Graphic Designer at Fiverr, Upwork</h4>
+                <span>2014 - Present</span>
+                <p>Logo Design, Tshirt Design, Flyer & Poster Design, Business Card Design, Banner Design, Poster Design, Social Media Cover Design, Book Cover Design, Mockup Design, Ads Design, Products Image Editing.</p>
+              </div>
+            </div>
+            <div class="grid-education-items">
+              <h3>Education</h3>
+              <div class="education">
+                <h4>CARMICHAEL COLLEGE RANGPUR</h4>
+                <span>2013 - 2015</span>
+                <p>Studied MBA Management</p>
+              </div>
+              <br><br>
+              <hr>
+              <br><br>
+              <div class="education">
+                <h4>Kanay Lal Design & Art Institute</h4>
+                <span>OCT 2014 - Present</span>
+                <p>Logo Design, Tshirt Design, Flyer & Poster Design, Business Card Design, Banner Design, Poster Design, Social Media Cover Design, Book Cover Design, Mockup Design, Ads Design, Products Image Editing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!--END EXPERIENCE SECTION-->
+
+    <!--START LATEST-WORK SECTION-->
+      <section id="portfolio">
+        <div class="row">
+          <div class="section-title">
+            <h2>My Latest Work</h2>
+            <p>Hi, I am Kanay Lal Roy. Professional Freelancer, <br> Graphic Designer and AI Expert from Bangladesh.</p>
+          </div>
+          <div class="portfolio-filter">
+            <button type="button" data-filter="all">All</button>
+            <button type="button" data-filter=".generated">AI Generated</button>
+            <button type="button" data-filter=".tutorial">Tutorials</button>
+            <a class="youtube" href="https://www.youtube.com/@kanaylal/videos" target="_blank"> <button type="button">YouTube Channel</button></a>
+          </div>
+          <div class="grid-portfolio-container" uk-lightbox>
+            <div class="grid-portfolio-items mix tutorial">
+              <a href="resources/css/images/Kanaylal3.jpeg" data-caption="Caption-1">
+                <img src="resources/css/images/Kanaylal3.jpeg" alt="portfolio">
+              </a>
+              <a class="tuto-1" href="https://www.youtube.com/watch?v=gw4SeEGQ_08&t=20s" >Click for Tutorial</a>
+            </div>
+            <div class="grid-portfolio-items mix generated">
+              <a href="resources/css/images/kanay21.jpg" data-caption="Caption 2">
+                <img src="resources/css/images/kanay21.jpg" alt="portfolio">
+              </a>
+            </div>
+            <div class="grid-portfolio-items mix tutorial">
+              <a href="resources/css/images/kanaylal-10.png" data-caption="Caption-3" >
+                <img src="resources/css/images/kanaylal-10.png" alt="portfolio">
+              </a>
+              <a class="tuto-3" href="https://www.youtube.com/watch?v=-8byoJn-wbg
+              "  target="_blank">Click for Tutorial</a>
+            </div>
+            <div class="grid-portfolio-items mix generated">
+              <a href="resources/css/images/kanay001(4).jpg" data-caption="Caption 4">
+                <img src="resources/css/images/kanay001(4).jpg" alt="portfolio">
+              </a>
+            </div>
+            <div class="grid-portfolio-items mix generated">
+              <a href="resources/css/images/kanaylala-11.jpg" data-caption="Caption 5">
+                <img src="resources/css/images/kanaylala-11.jpg" alt="portfolio">
+              </a>
+            </div>
+            <div class="grid-portfolio-items mix generated">
+              <a href="resources/css/images/kanay001(6).jpg" data-caption="Caption 6">
+                <img src="resources/css/images/kanay001(6).jpg" alt="portfolio">
+              </a>
+            </div>
+            <div class="grid-portfolio-items mix tutorial">
+              <a href="resources/css/images/kanaylal-9.jpg" data-caption="Caption 7">
+                <img src="resources/css/images/kanaylal-9.jpg" alt="portfolio">
+              </a>
+              <a class="tuto-7" href="https://www.youtube.com/watch?v=x2L0niCAiDA
+              ">Click for Tutorial</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!--END LATEST-WORK SECTION-->
+
+    <!--START TESTOMONIAL SECTION-->
+      <section id="testimonial">
+        <div class="row">
+          <div class="grid-testimonial-container">
+            <div class="grid-testimonial-items">
+              <img class="quote" src="resources/img/quot.png" alt="quote">
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
+              <img class="signature" src="resources/img/signature.png" alt="signature">
+              <h4>Deniel Croft</h4>
+              <p>Creative Designer, Levy</p>
+            </div>
+            <div class="grid-testimonial-items">
+              <img class="nomita" src="resources/img/NOMITA.jpeg" alt="nomita">
+            </div>
+          </div>
+        </div>
+      </section>
+    <!--END TESTOMONIAL SECTION-->
+
+    <!--START CONTACT SECTION-->
+      <section id="contact">
+        <div class="row">
+          <div class="grid-contact-container">
+            <div class="grid-contact-items">
+              <h3>Leave a message</h3>
+              <form action="#" method="post">
+                <div class="single-form">
+                  <input type="text" placeholder="Name *" required>
+                </div>
+                <div class="single-form">
+                  <input type="email" placeholder="E-mail *" required>
+                </div>
+                <div class="single-form">
+                  <input type="text" placeholder="Subject *" required>
+                </div>
+                <div class="single-form">
+                  <textarea cols="30" rows="10" placeholder="Message*" required></textarea>
+                </div>
+              </form>
+              <div class="single-form-btn">
+                <input class="btn btn-full" type="submit" value="Hire Me!">
+              </div>
+            </div>
+            <div class="grid-contact-items nested-grid-contact-container">
+              <div class="nested-grid-contact-items">
+                <h3>Address</h3>
+                <p>Rangpur City,  Lalmonirhat <br> Rājshāhi, Bangladesh</p>
+              </div>
+              <div class="nested-grid-contact-items">
+                <h3>Phone</h3>
+                <p>+880 174  473  9688 <br>
+                   +880 174  473  9688</p>
+              </div>
+              <div class="nested-grid-contact-items">
+                <h3>Web</h3>
+                <p>Mail : kanaylal@gmail.com <br>
+                  Website : kanaylal.com <br>
+                  youtube.com/@kanaylal/videos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!--END CONTACT SECTION-->
+
+    <!--START FOOTER SECTION-->
+      <footer id="footer">
+        <div class="row">
+          <div class="social-icon">
+            <ul>
+              <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+              <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+              <li><a href="#"><ion-icon name="logo-behance"></ion-icon></a></li>
+              <li><a href="#"><ion-icon name="logo-dribbble"></ion-icon></a></li>
+            </ul>
+          </div>
+          <div class="copyright">
+            Copyright : Mokbul Hossain, All Rights Reserved.
+          </div>
+          <div class="totop">
+            <a href="#" uk-totop uk-scroll></a>
+          </div>
+        </div>
+      </footer>
+    <!--END FOOTER SECTION-->
+
+
+
+
+
+
+
+    <!--script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="vendors/js/uikit.min.js"></script>
+    <script src="vendors/js/mixitup.min.js"></script>
+    <script src="vendors/js/particles.min.js"></script>
+    <script src="vendors/js/app.js"></script>
+    <script src="resources/js/script.js"></script>
+  </body>
+</html>
